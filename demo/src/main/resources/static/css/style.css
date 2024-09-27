@@ -1,0 +1,212 @@
+.body-main{
+    padding: 0;
+    margin: 0;
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 25px;
+    background-color: #0CCE6B;
+    color: #fff;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+
+}
+.menu ul li a{
+    text-decoration:none;
+    color: #fff;
+}
+.button{
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+}
+.left{
+    width: 70%;
+    padding-right: 5%;
+    padding-left: 25px;
+    height: 100px;
+    float: left;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: rgb(12, 232, 67);
+    color:#fff;
+    background-image: url('/images/bg.jpg');
+    padding-bottom:60%;
+}
+.text{
+    height:30px;
+    width:120px;
+    border-radius: 5px;
+    border-width: 7px;
+    border-color: rgb(12, 232, 67);
+}
+.submit{
+    text-decoration: double;
+    border-radius: 5px;
+    border-width: 7px;
+    border-color: rgb(12, 232, 67);
+    font-family: "Poppins", sans-serif;
+
+
+}
+.right{
+    width: 25%;
+    height: 105%;
+    padding-bottom:37px;
+    color: #060606;
+    text-align: center;
+    background-color: rgb(12, 232, 67);
+
+}
+.right h2{
+    font-family: "Poppins", sans-serif;
+
+}
+.right ol li{
+    padding-right: 15px;
+    font-family: "Poppins", sans-serif;
+
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+.icon{
+    display: cover;
+    height: 120px;
+    width: 145px;
+    border-radius: 10px;
+}
+.topic{
+    font-family: "Poppins", sans-serif;
+        color: #ffffff;
+        text-align: center;
+}
+.safety-tips{
+    font-family: "Poppins", sans-serif;
+    text-align: left
+}
+/*signup*/
+.sign{
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgb(28, 239, 35) 0%,
+        rgba(255, 211, 165, 1) 90%)
+}
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-box {
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.signup-box h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn1 {
+    align-self: center;
+    width: 90%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #218838;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: rgb(28, 239, 35) 0%,;
+    text-decoration: none;
+}
+
+/*calculate price*/
+.body-calculate{
+    display: flex;
+    align-items: normal;
+    justify-content: space-evenly;
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgb(28, 239, 35) 0%,
+        rgba(255, 211, 165, 1) 90%)
+}
+.container-left
+{
+    float: left;
+    padding: 30px;
+    padding-top:10px ;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.container-right
+{
+    padding-left: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.right-design{
+    font-family: "Poppins", sans-serif;
+
+}
+.km{
+    height: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    }

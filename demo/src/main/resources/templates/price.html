@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Price</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script src="/js/script.js"></script>
+</head>
+<body class="body-calculate">
+
+    <div class="container-left">
+        <h1 class="center-calculate">Booking Price</h1>
+        <p>Pickup Address: <span th:text="${pickupAddress}"></span></p>
+        <p>Destination Address: <span th:text="${destinationAddress}"></span></p>
+        <p>Time of Action: <span th:text="${timeOfAction}"></span></p>
+        <p>Total Price: Rs. <span th:text="${price}"></span></p>
+        <p>Driver Name : Ravi kumar</p>
+        <p>Driver Contact : 9876543210</p>
+        <p>Driver  Rating : 4.5</p>
+        <p>Car  Name : Toyota Camry</p>
+        <p>Car  Number : DL-1234</p>
+        <a th:href="@{/}" class="btn1">Go Back to Home</a>
+    </div>
+</div>
+        <div class="container-right">
+            <div class="right-design"></div>
+            <h1>Trip Cost Calculator</h1>
+    
+            <form id="tripForm">
+                <label for="kilometers">Enter Kilometers:</label>
+                <input type="number" id="kilometers" placeholder="Enter kilometers" class="km" required>
+                <br><br>
+                <label for="rate">Cost per Kilometer (₹):RS 10</label>
+    <br><br>
+    
+                <button type="button" onclick="calculateCost()" class="btn1">Calculate Cost</button>
+            </form>
+            <br>
+
+    
+            <div class="result">
+                <h2>Total Trip Cost: ₹<span id="totalCost">0.00</span></h2>
+            </div>
+        </div>
+    </div>
+        <script th:src="@{/js/script.js}"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>car scheduling system</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body class="body-main">
+<div class="Top">
+    <h2>Car scheduling system</h2>
+    <div class="menu">
+        <ul>
+            <a th:href="@{/signup}">
+            <button class="button">Sign up</button>
+        </a>
+        </ul>
+    </div>
+</div>
+<div class="middle">
+    <div class="left">
+        <h2>Ready! Let's Go</h2>
+        <form action="/calculate-price" method="post">
+            <div class="input-group">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30773484.55170563!2d61.02451656116589!3d19.69009515037612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1725892754963!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                <input type="text" id="pickupAddress" name="pickupAddress" placeholder="Enter pickup address" class="text" required>
+            </div>
+        <br><br>
+        <div class="input-group">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30773484.55170563!2d61.02451656116589!3d19.69009515037612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1725892754963!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+            <input type="text" id="destinationAddress" name="destinationAddress" placeholder="Enter destination address" class="text" required>
+        </div>
+        <br>
+        <div class="input-group">
+            <input type="datetime-local" id="timeOfAction" name="timeOfAction" placeholder="Schedule a time" required>
+        </div> <br> <br>
+        <button type="submit" class="btn1">Calculate Price</button>
+        <br>
+    </div>
+        <div class="right">
+            <h2 class="topic">Available Cars</h2>
+            <ol>
+                <li>Regular</li>
+                <image src="images/regular.jpg" class="icon"></image>
+                <li>Sedan</li>
+                <image src="images/sedan 1.jpg"class="icon"></image>
+                <li>SUV</li>
+                <image src="images/suv.jpg"class="icon"></image>
+            </ol>
+            <span class="safety">
+            <h2>Prioritizing safety while driving</h2>
+<h4>From picking up the right rider to knowing when to call for assistance, here are ways to help make every trip stress-free.</h4>
+            </span>
+            <span class="safety-tips">
+                <h2 class="topic">Safety tips</h2>
+                <ul>
+                    <li>Request your ride inside
+                        Minimize the time that you’re standing outside by yourself with your phone in your hand. Instead, wait inside until the app shows that your driver has arrived.
+                        </li>
+                        <br>
+                        <li>
+                            Check Your Ride
+                            Every time you take a trip, please make sure you’re getting into the right car with the right driver by matching the license plate, car make and model, and driver photo with what’s provided in your app.Trips can only be requested through the app, so never get in a car where the vehicle or driver identity doesn't match what’s displayed in your app.
+                        </li>
+                </ul>
+            </span>
+    </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
